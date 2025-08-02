@@ -1,0 +1,52 @@
+.student-dashboard {
+  padding: 40px;
+  text-align: center;
+  background-color: #f5f9ff;
+  min-height: 100vh;
+}
+
+.student-dashboard h1 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.student-dashboard p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.dashboard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  background-color: #eaf1ff;
+}
+
+.dashboard-card h2 {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 8px;
+  
+}
+
+.dashboard-card p {
+  font-size: 14px;
+  color: #444;
+}

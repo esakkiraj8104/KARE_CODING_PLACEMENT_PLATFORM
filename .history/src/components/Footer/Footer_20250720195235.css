@@ -1,0 +1,33 @@
+/* Footer.css */
+.footer {
+  background: #2d87e1;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 0; /* 🔻 Removed extra top space */
+}
+
+
+.footer h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #00bfff;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-contact span {
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.footer-credit p {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #ccc;
+}

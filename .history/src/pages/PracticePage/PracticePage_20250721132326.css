@@ -1,0 +1,70 @@
+.practice-page {
+  background-color: #f0f6ff;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.practice-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 64, 128, 0.1);
+}
+
+.practice-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #004080;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.editor-wrapper {
+  border: 1px solid #cfe2ff;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f8fbff;
+}
+
+.code-editor {
+  width: 100%;
+  min-height: 400px;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  resize: vertical;
+  background-color: #eef6ff;
+  color: #002244;
+}
+
+.run-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.run-button:hover {
+  background-color: #0056b3;
+}
+
+.output-box {
+  margin-top: 30px;
+  background-color: #f1f9ff;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  color: #002b55;
+  font-size: 15px;
+}

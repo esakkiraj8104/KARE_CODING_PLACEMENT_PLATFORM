@@ -1,0 +1,54 @@
+import { useNavigate } from 'react-router-dom';
+import KluLogo from '../../assets/klu-logo.jpeg';
+import '../Home/Home.css';
+import Footer from '../../components/Footer/Footer'; // ✅ Import Footer
+
+const Home = () => {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <div className="home-container">
+        {/* Header */}
+        <header className="home-header">
+          <img src={KluLogo} alt="KARE Logo" className="home-logo" />
+          <h1 className="home-title">KARE CODING PLATFORM</h1>
+        </header>
+
+        {/* Subtitle */}
+        <p className="home-subtitle">
+          AI-Powered Placement Training & Assessment System
+        </p>
+        <p className="home-subtitle-lines">
+          Prepare for your dream placement with our comprehensive assessment platform featuring MCQ tests, coding challenges, and personalized AI feedback.
+        </p>
+
+        {/* Buttons */}
+        <div className="home-buttons">
+          <button onClick={() => navigate('/student')} className="btn btn-student">
+            Student Dashboard
+          </button>
+          <button onClick={() => navigate('/admin')} className="btn btn-admin">
+            Admin Dashboard
+          </button>
+        </div>
+        
+      </div>
+      <section className="features-section">
+        <h3 className="features-title">Why Use KARE Coding Platform?</h3>
+        <div className="features-grid">
+          <div className="feature-box">🧠 Smart MCQ Assessments</div>
+          <div className="feature-box">💻 Live Coding Practice</div>
+          <div className="feature-box">📊 Batch-wise Tests</div>
+          <div className="feature-box">🤖 AI-Powered Evaluation</div>
+          <div className="feature-box">🛠️ Admin Question Control</div>
+        </div>
+      </section>
+
+      {/* ✅ Add Footer */}
+      <Footer />
+    </>
+  );
+};
+
+export default Home;

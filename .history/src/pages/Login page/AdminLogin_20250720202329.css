@@ -1,0 +1,100 @@
+.admin-container {
+  min-height: 100vh;
+  background-color: #f9fafc;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.admin-logo {
+  width: 10px;
+  height: 60px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.admin-header p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.admin-badge {
+  background-color: #e0f2fe;
+  color: #f54b4b;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.login-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-card button {
+  width: 100%;
+  background-color: #0a53ec;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.switch-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #0a53ec;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #888;
+}
