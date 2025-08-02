@@ -1,0 +1,57 @@
+.coding-assessment-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f4f7fc, #d0e3ff);
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.coding-heading {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.assessment-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.mcq-section, .coding-section {
+  background-color: white;
+  padding: 30px 25px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.mcq-section h2, .coding-section h2 {
+  font-size: 22px;
+  color: #1a3c6d;
+  margin-bottom: 12px;
+}
+
+.mcq-section p, .coding-section p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.start-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #0056b3;
+}
