@@ -7,8 +7,9 @@ import './Styles/Main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
-      <App />
-      </HashRouter>
+    <HashRouter>.</HashRouter>
+
+      
+    </BrowserRouter>
   </React.StrictMode>
 );
